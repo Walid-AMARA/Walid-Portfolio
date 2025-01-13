@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Portfolio of Walid AMARA - Cloud & Data Engineer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Walid AMARA | Cloud & Data Engineer</title>
+
+    <!-- Fonts: Playfair Display (headings), Montserrat (body) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind compiled CSS -->
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <!-- AOS Library CSS (for scroll animations) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+
+  <!-- The 'dark' class may get toggled via JavaScript. -->
+  <body
+    class="
+      font-body
+      text-gray-800
+      bg-grayish-100
+      dark:bg-gray-900
+      dark:text-gray-100
+      relative
+    "
+  >
+    <!-- Particles.js container -->
+    <div id="particles-js" class="absolute inset-0 -z-10"></div>
+
+    <!-- Star dust container for mouse effect -->
+    <div
+      id="star-dust-container"
+      class="pointer-events-none fixed top-0 left-0 w-full h-full z-50"
+    ></div>
+
+    <!-- HERO / HEADER -->
+    <header
+      class="
+        w-full
+        min-h-screen
+        flex
+        flex-col
+        justify-center
+        items-center
+        relative
+        bg-center
+        bg-cover
+        bg-no-repeat
+        bg-[url('/public/images/piano_dark.jpg')]
+        dark:bg-[url('/public/images/piano_dark.jpg')]
+      "
+      style="background-color: #f5f5f5" <!-- fallback if images not found -->
+    >
+      <!-- Light/dark overlay to unify background look -->
+      <div
+        class="
+          absolute
+          inset-0
+          bg-white
+          bg-opacity-40
+          dark:bg-gray-900
+          dark:bg-opacity-60
+        "
+      ></div>
+
+      <div class="relative z-10 text-center px-4 max-w-2xl mx-auto">
+        <!-- Profile picture -->
+        <img
+          src="/public/images/walid-amara.png"
+          alt="Walid AMARA"
+          class="
+            w-40
+            h-40
+            object-cover
+            rounded-full
+            mx-auto
+            mb-6
+            border-4
+            border-white
+            shadow-md
+          "
+          loading="lazy"
+        />
+
+        <h1
+          class="
+            font-heading
+            text-4xl
+            md:text-5xl
+            mb-2
+            leading-tight
+            text-gray-900
+            dark:text-gray-100
+          "
+          data-aos="fade-in-up"
+        >
+          Walid AMARA
+        </h1>
+        <p
+          class="
+            font-semibold
+            text-lg
+            md:text-xl
+            text-gray-700
+            dark:text-gray-300
+            mb-6
+          "
+          data-aos="fade-in-up"
+          data-aos-delay="100"
+        >
+          Cloud &amp; Data Engineer
+        </p>
+
+        <!-- Social Icons -->
+        <div
+          class="flex justify-center space-x-5 mb-6"
+          data-aos="fade-in-up"
+          data-aos-delay="200"
+        >
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/walid-amara-class/"
+            target="_blank"
+            class="text-gray-700 dark:text-gray-300 hover:text-gold transition-colors"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14C2.239 0 0 2.239 0 5v14c0 
+                2.761 2.239 5 5 5h14c2.761 0 5-2.239 
+                5-5V5c0-2.761-2.239-5-5-5zM7.209 18.708H4.498v-9.708h2.711v9.708zM5.854 
+                8.27c-.868 0-1.57-.703-1.57-1.571s.702-1.571 
+                1.57-1.571 1.571.703 1.571 1.571-.703 
+                1.571-1.571 1.571zM19.5 18.708h-2.712v-4.932c0-1.176-.02-2.691-1.64-2.691-1.641 
+                0-1.893 1.279-1.893 2.602v5.02h-2.711v-9.708h2.602v1.326h.037c.363-.689 
+                1.248-1.416 2.567-1.416 2.745 0 3.249 1.808 3.249 
+                4.16v5.638z"
+              />
+            </svg>
+          </a>
+          <!-- GitHub -->
+          <a
+            href="https://github.com/Walid-AMARA"
+            target="_blank"
+            class="text-gray-700 dark:text-gray-300 hover:text-gold transition-colors"
+          >
+            <!-- Clean GitHub icon -->
+            <svg
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.535 
+                2.292 6.533 5.47 7.59.4.074.55-.174.55-.388 
+                0-.19-.006-.693-.01-1.36-2.01.37-2.53-.49-2.69-.94 
+                -.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53 
+                .63-.01 1.08.58 1.23.82.72 1.21 1.87.86 
+                2.33.66.07-.52.28-.86.51-1.06-1.78-.2-3.64-.89-3.64-3.95 
+                0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.1 
+                0 0 .67-.21 2.2.82.64-.18 1.32-.27 
+                2-.27.68 0 1.36.09 2 .27 1.53-1.04 
+                2.2-.82 2.2-.82.44 1.09.16 1.9.08 
+                2.1.51.56.82 1.28.82 2.15 0 3.07-1.87 
+                3.75-3.65 3.95.29.25.54.73.54 1.48 
+                0 1.07-.01 1.93-.01 2.2 0 .21.14.46.55.38 
+                3.18-1.06 5.47-4.06 5.47-7.59 
+                0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+          </a>
+          <!-- Email -->
+          <a
+            href="mailto:w-amara@outlook.com"
+            class="text-gray-700 dark:text-gray-300 hover:text-gold transition-colors"
+          >
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 512 512">
+              <path
+                d="M502.3 190.8c3.9-3.1 9.7-0.4 9.7 
+                4.6v204.8c0 26.5-21.5 48-48 48H48c-26.5 
+                0-48-21.5-48-48V195.4c0-5 5.7-7.7 9.7
+                -4.6C68 231.4 163.8 300.5 216 
+                338.1c10.6 7.9 30.1 25.6 56 
+                25.6s45.4-17.7 56-25.6c52.2-37.6 
+                148-106.7 206.3-147.3zM256 320c23.4 
+                0 56.9-29.2 73.4-41.4 132.7 
+                -95.1 142.4-102.2 173.4-126.6 
+                4-3.1 6.2-7.8 6.2-12.6v-27.2
+                c0-26.5-21.5-48-48-48H48c-26.5 
+                0-48 21.5-48 48v27.2c0 4.9 
+                2.2 9.5 6.2 12.6 31.1 24.4 
+                40.8 31.5 173.4 126.6C199.1 
+                290.8 232.6 320 256 320z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav data-aos="fade-in-up" data-aos-delay="300">
+          <ul class="flex flex-wrap justify-center space-x-5 text-sm font-semibold">
+            <li><a href="#summary" class="hover:text-gold">Summary</a></li>
+            <li><a href="#skills" class="hover:text-gold">Skills</a></li>
+            <li><a href="#experience" class="hover:text-gold">Experience</a></li>
+            <li><a href="#projects" class="hover:text-gold">Projects</a></li>
+            <li><a href="#publications" class="hover:text-gold">Publications</a></li>
+            <li><a href="#certificates" class="hover:text-gold">Certificates</a></li>
+            <li><a href="#education" class="hover:text-gold">Education</a></li>
+          </ul>
+        </nav>
+
+        <!-- Day/Night Slider Toggle -->
+        <div class="mt-6" data-aos="fade-in-up" data-aos-delay="400">
+          <!-- We'll use a label+checkbox approach to create a custom slider -->
+          <label for="theme-toggle" class="cursor-pointer inline-flex items-center">
+            <!-- Hidden checkbox -->
+            <input
+              type="checkbox"
+              id="theme-toggle"
+              class="sr-only peer"
+            />
+            <!-- Track -->
+            <div
+              class="
+                w-14
+                h-7
+                bg-gray-300
+                dark:bg-gray-600
+                rounded-full
+                relative
+                peer-checked:bg-gold
+                transition-colors
+                duration-300
+              "
+            ></div>
+            <!-- Thumb -->
+            <div
+              class="
+                w-6
+                h-6
+                bg-white
+                dark:bg-gray-200
+                rounded-full
+                absolute
+                top-0.5
+                left-0.5
+                peer-checked:translate-x-7
+                transition-transform
+                duration-300
+                pointer-events-none
+              "
+            ></div>
+            <!-- Icons: Sun on left, Moon on right -->
+            <span
+              class="
+                absolute
+                left-2
+                top-1
+                text-xs
+                pointer-events-none
+                select-none
+              "
+            >
+              ☀️
+            </span>
+            <span
+              class="
+                absolute
+                right-2
+                top-1
+                text-xs
+                pointer-events-none
+                select-none
+              "
+            >
+              🌙
+            </span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="relative z-10">
+      <!-- Summary Section -->
+      <section
+        id="summary"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-gray-50
+          dark:bg-gray-800
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/summary-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div class="max-w-4xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-4 text-gray-900 dark:text-gray-100"
+          >
+            Summary
+          </h2>
+          <p id="summary-text" class="text-base md:text-lg leading-relaxed"></p>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section
+        id="skills"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-gray-50
+          dark:bg-gray-800
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/skills-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="max-w-4xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-4 text-gray-900 dark:text-gray-100"
+          >
+            Skills
+          </h2>
+          <ul id="skills-list" class="list-disc list-inside space-y-1 text-base"></ul>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section
+        id="experience"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-white
+          dark:bg-gray-900
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/experience-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-6 text-gray-900 dark:text-gray-100"
+          >
+            Experience
+          </h2>
+          <div
+            id="experience-cards"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section
+        id="projects"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-gray-50
+          dark:bg-gray-800
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/projects-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-6 text-gray-900 dark:text-gray-100"
+          >
+            Projects
+          </h2>
+          <div
+            id="projects-container"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Publications Section -->
+      <section
+        id="publications"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-white
+          dark:bg-gray-900
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/publications-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-6 text-gray-900 dark:text-gray-100"
+          >
+            Publications
+          </h2>
+          <div
+            id="publications-list"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Certificates Section -->
+      <section
+        id="certificates"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-gray-50
+          dark:bg-gray-800
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/certificates-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="600"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-6 text-gray-900 dark:text-gray-100"
+          >
+            Certificates
+          </h2>
+          <div
+            id="certificates-container"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section
+        id="education"
+        class="
+          py-12
+          md:py-16
+          px-4
+          bg-white
+          dark:bg-gray-900
+          bg-center
+          bg-cover
+          bg-no-repeat
+          [background-image:url('/public/images/education-bg.jpg')]
+        "
+        data-aos="fade-up"
+        data-aos-delay="700"
+      >
+        <div class="max-w-6xl mx-auto">
+          <h2
+            class="font-heading text-3xl md:text-4xl mb-6 text-gray-900 dark:text-gray-100"
+          >
+            Education
+          </h2>
+          <div
+            id="education-list"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-gray-200 dark:bg-gray-800 py-6 text-center transition-colors"
+    >
+      <p class="text-sm text-gray-600 dark:text-gray-400">
+        © <span id="year"></span> Walid AMARA • 
+      </p>
+    </footer>
+
+    <!-- AOS library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Main JS -->
+    <script src="./src/main.js"></script>
+
+    <script>
+      // Initialize AOS
+      AOS.init();
+
+      // Initialize particles.js
+      particlesJS.load('particles-js', '/public/particlesjs-config.json', function() {
+        console.log('particles.js config loaded');
+      });
+    </script>
+  </body>
+</html>

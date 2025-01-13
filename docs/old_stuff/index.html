@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Portfolio of Walid AMARA - Cloud & Data Engineer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Walid AMARA | Cloud & Data Engineer</title>
+    <!-- Tailwind compiled output -->
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body class="bg-cosmic-900 text-white font-sans relative">
+    <!-- Star dust container (for mouse effect) -->
+    <div id="star-dust-container" class="pointer-events-none fixed top-0 left-0 w-full h-full z-50"></div>
+
+    <!-- Hero section -->
+    <header 
+      class="
+        min-h-screen 
+        flex flex-col 
+        justify-center 
+        items-center 
+        bg-cover 
+        bg-no-repeat 
+        bg-center 
+        relative
+        "
+      style="
+        background-image: url('/public/images/cosmic-bg.png'); /* fallback hero bg image */
+      "
+    >
+      <!-- Overlay gradient to darken the background a bit -->
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      <!-- Content in hero (z-index above overlay) -->
+      <div class="relative z-10 text-center px-4">
+        <!-- Profile picture -->
+        <img 
+          src="/public/images/walid-amara.png" 
+          alt="Walid AMARA" 
+          class="mx-auto mb-4 w-48 h-48 object-cover rounded-full border-4 border-white animate-shine"
+        />
+        <!-- Name & specialty -->
+        <h1 class="text-4xl md:text-5xl font-bold mb-2 animate-fade-in">Walid AMARA</h1>
+        <p class="text-xl md:text-2xl text-gray-200 mb-4 animate-fade-in">Cloud & Data Engineer</p>
+
+        <!-- Social icons / links -->
+        <div class="flex justify-center space-x-6 mb-8 animate-fade-in">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/walid-amara-class/" target="_blank" class="hover:text-blue-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path 
+                d="M19 0h-14c-2.76... (shortened for brevity)"/>
+            </svg>
+          </a>
+          <!-- GitHub -->
+          <a href="https://github.com/Walid-AMARA" target="_blank" class="hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path 
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303..." />
+            </svg>
+          </a>
+          <!-- E-mail (mailto) -->
+          <a href="mailto:w-amara@outlook.com" class="hover:text-red-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 512 512">
+              <path 
+                d="M502.3 190.8c3.9-3.1 9.7-0.4..." />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Navbar -->
+        <nav>
+          <ul class="flex flex-wrap justify-center space-x-5 text-lg font-semibold">
+            <li><a href="#summary" class="hover:text-gray-300">Summary</a></li>
+            <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+            <li><a href="#experience" class="hover:text-gray-300">Experience</a></li>
+            <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+            <li><a href="#publications" class="hover:text-gray-300">Publications</a></li>
+            <li><a href="#certificates" class="hover:text-gray-300">Certificates</a></li>
+            <li><a href="#education" class="hover:text-gray-300">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Summary Section -->
+    <section 
+      id="summary" 
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/section-bg-summary.jpg');"
+    >
+      <!-- fallback if the background image doesn’t exist -->
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-4">Summary</h2>
+        <p id="summary-text" class="text-lg leading-relaxed"></p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/Ring_Nebula.png');"
+    >
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-4">Skills</h2>
+        <ul id="skills-list" class="list-disc list-inside space-y-1"></ul>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section
+      id="experience"
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/section-bg-experience.jpg');"
+    >
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-6">Experience</h2>
+        <div id="experience-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/section-bg-projects.jpg');"
+    >
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-6">Projects</h2>
+        <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section
+      id="publications"
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/section-bg-publications.jpg');"
+    >
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-6">Publications</h2>
+        <div id="publications-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section
+      id="certificates"
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/section-bg-certificates.jpg');"
+    >
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-6">Certificates</h2>
+        <div id="certificates-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section
+      id="education"
+      class="py-12 px-4 bg-cover bg-center relative"
+      style="background-image: url('/public/images/section-bg-education.jpg');"
+    >
+      <div class="bg-black bg-opacity-30 absolute inset-0 pointer-events-none"></div>
+      <div class="container mx-auto relative z-10 animate-fade-in">
+        <h2 class="text-3xl font-bold mb-6">Education</h2>
+        <div id="education-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-cosmic-800 py-6 text-center">
+      <p class="text-sm">© <span id="year"></span> Walid AMARA. Powered by Tailwind CSS.</p>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="src/main.js"></script>
+  </body>
+</html>

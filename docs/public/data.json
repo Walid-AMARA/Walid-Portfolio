@@ -1,0 +1,213 @@
+{
+    "summary": "🌟 About Me 🌟\n👨‍💻 Cloud Engineer | GCP | Data Engineering | DevOps | AI Solutions\n\nI’m Walid AMARA, a professional Cloud Engineer with a versatile background in data engineering, cloud computing, DevOps, and AI-powered solutions. My career has been defined by the ability to integrate cutting-edge technologies across domains, delivering impactful and scalable systems for complex challenges.\n\n💡 Technical Expertise:\n✔ Data Engineering: Advanced skills in Apache Beam (Java), Dataflow, BigQuery, and ETL pipeline development, enabling seamless data processing at scale\n✔ Cloud Infrastructure: Proficient in Terraform and GCP services, ensuring secure, efficient, and reliable deployments\n✔ DevOps Practices: Expertise in CI/CD pipelines and infrastructure automation to streamline development and deployment processes\n✔ AI & Machine Learning: Extensive experience in developing and deploying AI solutions, including computer vision, statistical modeling, and predictive analytics using Python\n\n🔍 Professional Highlights:\n➤ Designed and implemented data migration pipelines and optimized workflows for large-scale data processing on GCP\n➤ Delivered AI-driven solutions, such as a wildlife monitoring system and a face recognition framework (both published at IEEE ISCC 2023 🔷)\n➤ Developed safety and traffic management solutions powered by AI and cloud technologies\n➤ Leveraged a blend of AI and data engineering skills to design systems that integrate analytics and machine learning seamlessly into production environments\n➤ Automated and managed cloud infrastructure with tools like Terraform, ensuring reliability and scalability\n\n🎯 Delivering Impact Through Innovation:\nMy expertise bridges the gap between AI research and enterprise-grade solutions, enabling me to deliver practical, high-performing systems. With a foundation in AI and a focus on data-driven cloud technologies, I am committed to building solutions that align with strategic business objectives.",
+    "skills": [
+      "Python, Java, SQL, R, C#",
+      "Hadoop, Spark, Databricks, Airflow",
+      "AWS, GCP, Docker, Kubernetes",
+      "Data Modeling, Data Warehousing",
+      "Machine Learning, Computer Vision",
+      "DevOps, CI/CD, Agile JIRA, etc."
+    ],
+    "experience": [
+      {
+        "role": "Cloud Engineer",
+        "company": "Bell Canada / Cnexia Tech",
+        "start_date": "July 2024",
+        "end_date": "Present",
+        "responsibilities": [
+          "Data Migration from Oracle DB to GCP using Dataflow / Apache Beam",
+          "Operations and APIs migration from on-premise to GCP",
+          "Java code refactoring, SpringBoot, SpringBatch"
+        ],
+        "skills": [
+          "ETL / ELT operations, Kafka, GCP, Terraform"
+        ],
+        "images": [
+          "public/images/Bell_Blue_large_transparent.png",
+          "public/images/1200x630-1635352523998.png"
+        ]
+      },
+      {
+        "role": "Cloud & Data Consultant",
+        "company": "Majal Berkane",
+        "start_date": "December 2022",
+        "end_date": "July 2024",
+        "responsibilities": [
+          "E-MOULOUYA Environmental Wildlife Monitoring and MLOps",
+          "CI/CD Operations and MLOps for R&D Team",
+          "IoT Digital Twin and data streaming to GCP",
+          "Enterprise Scale Attendance System with Face Recognition"
+        ],
+        "skills": [
+          "Apache Kafka, Python, Pytorch, FastAPI, IoT, GCP, Computer Vision, XGBoost"
+        ],
+        "images": [
+          "public/images/Majal_Berkane.jpg"
+        ]
+      },
+      {
+        "role": "Data Engineer",
+        "company": "Genius Sports",
+        "start_date": "Jan 2022",
+        "end_date": "December 2022",
+        "responsibilities": [
+          "Data Exploration & cleaning pipelines for sports data",
+          "Automating reports generation for faster insights",
+          "Correlation, Clustering, Ensemble methods for classification",
+          "Migrating data to the cloud (Teradata to GCP BigQuery)"
+        ],
+        "skills": [
+          "BigQuery, IAM, Dataflow, AWS S3, Lambda"
+        ],
+        "images": [
+          "public/images/Genius_sports_logo.png"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "E-MOULOUYA",
+        "description": "AI-based mega project for environmental wildlife monitoring. Involves microservices, Kafka, GCP Pub/Sub, Vertex AI, etc.",
+        "url": "https://www.researchgate.net/publication/373462259_An_Integrated_Framework_for_Bird_Recognition_Using_Dynamic_Machine_Learning-Based_Classification",
+        "images": [
+          "public/images/E-Moulouya.png",
+          "public/images/Full_E-Moulouya_Functional_Architecture.png"
+        ],
+        "date": "2024-02-01"
+      },
+      {
+        "title": "Face Recognition Attendance System",
+        "description": "Novel and optimized face recognition system (API using Django). Database design with encryption, hashing, etc.",
+        "url": "https://www.researchgate.net/publication/373466653_Aggregating_Multiple_Embeddings_A_Novel_Approach_to_Enhance_Reliability_and_Reduce_Complexity_in_Facial_Recognition",
+        "images": ["public/images/face_rec.png"],
+        "date": "2023-06-15"
+      },
+      {
+        "title": "Coopinno",
+        "description": "Coopinno: Developed and Deployed Full Stack E-Commerce Web App in Python FastAPI, Bootstrap JQuery, MySQL and Nginx",
+        "url": "https://coopinno.ma",
+        "images": ["public/images/coopinno_dashboard1.jpeg", "public/images/coopinno_dashboard2.jpeg"],
+        "date": "2024-01-01"
+      },
+      {
+        "title": "MyAiCoach",
+        "description": "MyAICoach: AI-Based career coaching web app built in Python FastAPI, Bootstrap JQuery and Nginx",
+        "url": "https://www.myaicoach.fr",
+        "images": ["public/images/MyAICoach.png"],
+        "date": "2024-01-01"
+      }
+    ],
+    "publications": [
+      {
+        "title": "Aggregating Multiple Embeddings: Facial Recognition",
+        "conference": "28th IEEE ISCC 2023",
+        "images": [
+            "public/images/face_rec.png"
+          ],
+        "link": "https://www.researchgate.net/publication/373466653_Aggregating_Multiple_Embeddings_A_Novel_Approach_to_Enhance_Reliability_and_Reduce_Complexity_in_Facial_Recognition"
+      },
+      {
+        "title": "An Integrated Framework for Bird Recognition Using Dynamic ML-Based Classification",
+        "conference": "28th IEEE ISCC 2023",
+        "link": "https://www.researchgate.net/publication/373462259_An_Integrated_Framework_for_Bird_Recognition_Using_Dynamic_Machine_Learning-Based_Classification"
+      },
+      {
+        "title": "LaSBiRD: Large Scale Bird Recognition Dataset",
+        "conference": "IEEE DataPort",
+        "link": "https://www.researchgate.net/publication/373653606_LaSBiRD_Large_Scale_Bird_Recognition_Dataset"
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Databricks Apache Spark SQL",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/QZ8QB2W3LEL3",
+        "images": [
+          "public/images/Databricks.png", "public/images/Databricks_Logo.png"
+        ],
+        "date": "2022-01-20"
+      },
+      {
+        "title": "Google BI Professional",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/28RHMC3PKKYJ",
+        "images": [
+            "public/images/Data_Models_And_Pipelines_Certif.png"
+        ],
+        "date": "2021-10-05"
+      },
+      {
+        "title": "ETL & Data Pipelines, Airflow and Kafka",
+        "issuer": "IBM",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/LF7VA4VK9VKT",
+        "images": [
+            "public/images/IBM_ETL_Airflow.png"
+        ],
+        "date": "2023-05-30"
+      },
+      {
+        "title": "IBM DevOps",
+        "issuer": "IBM",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RS27DZD9YATB",
+        "images": [
+            "public/images/IBM_DevOps.png"
+        ],
+        "date": "2024-04-20"
+      },
+      {
+        "title": "Agile Development and Scrum",
+        "issuer": "IBM",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RS27DZD9YATB",
+        "images": [
+            "public/images/Agile_Scrum.png"
+        ],
+        "date": "2024-04-20"
+      },
+      {
+        "title": "Kaggle Data Courses",
+        "issuer": "Kaggle",
+        "url": "https://www.kaggle.com/mediocrekaggle/followers",
+        "images": [
+            "public/images/Kaggle_logo.png"
+        ],
+        "date": "2022-01-01"
+      },
+      {
+        "title": "Exploratory Data Analysis",
+        "issuer": "IBM",
+        "url": "https://www.coursera.org/account/accomplishments/verify/FFVZ2SP4U8LR",
+        "images": [
+            "public/images/Exploratory_Data_Analysis.png"
+        ],
+        "date": "2022-05-18"
+      },
+      {
+        "title": "Machine & Deep Learning Specialization",
+        "issuer": "DeepLearning.AI",
+        "url": "https://www.coursera.org/account/accomplishments/verify/6TA6STQ6EJGY",
+        "images": [
+            "public/images/DeepLearning.png"
+        ],
+        "date": "2022-08-28"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc in Advanced Information Systems",
+        "institution": "École Supérieure de Management, Informatique et Télécommunication",
+        "images": [
+          "public/images/supmti-logo.png"
+        ],
+        "date": ""
+      },
+      {
+        "degree": "BSc in Business Intelligence",
+        "institution": "École Supérieure de Technologie, Oujda",
+        "images": [
+          "public/images/ump_oujda.png"
+        ],
+        "date": ""
+      }
+    ]
+  }
+  
