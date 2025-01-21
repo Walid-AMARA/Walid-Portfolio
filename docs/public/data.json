@@ -109,6 +109,9 @@
       {
         "title": "An Integrated Framework for Bird Recognition Using Dynamic ML-Based Classification",
         "conference": "28th IEEE ISCC 2023",
+        "images": [
+            "public/images/E_Moulouya_AI_Architecture.png"
+          ],
         "link": "https://www.researchgate.net/publication/373462259_An_Integrated_Framework_for_Bird_Recognition_Using_Dynamic_Machine_Learning-Based_Classification"
       },
       {
